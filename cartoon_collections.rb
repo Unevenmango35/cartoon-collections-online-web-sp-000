@@ -22,7 +22,7 @@ def find_the_cheese(array)# code an argument here
     cheese_types = ["cheddar", "gouda", "camembert"]
   array.find { |i| i == "cheddar" || i == "gouda" || i == "camembert" }
 else
-  
+  array.index("cheddar")
 end
 
 
